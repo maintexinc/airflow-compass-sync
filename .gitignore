@@ -1,0 +1,46 @@
+# macOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Editor / misc
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Project
+__py_cache__/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Airflow runtime state (present when the repo is checked out AT AIRFLOW_HOME,
+# i.e. /opt/airflow on the VM -- keep runtime artifacts out of the work tree)
+venv/
+logs/
+airflow.cfg
+webserver_config.py
+airflow.db
+airflow-webserver.pid
+standalone_admin_password.txt
